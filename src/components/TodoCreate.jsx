@@ -22,7 +22,7 @@ function TodoCreate({ createTodo }) {
       <input
         className="w-full text-gray-500 outline-none"
         type="text"
-        placeholder="Crate a new todo"
+        placeholder="Create a new todo"
         value={title}
         onChange={(e) => setTitle(e.target.value)}
       />
