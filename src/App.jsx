@@ -10,7 +10,7 @@ const initialStateTodos = [
   { id: 2, title: "Jog aroung the park 3x", completed: false },
   { id: 3, title: "10 minutes meditation", completed: false },
   { id: 4, title: "Pick up groceries", completed: false },
-  { id: 5, title: "Complete Todo app an Fronted Mentor", completed: false },
+  { id: 5, title: "Complete Todo app and Frontend Mentor", completed: false },
 ];
 function App() {
   const [todos, setTodos] = useState(initialStateTodos);
